@@ -1,0 +1,26 @@
+package newapp;
+
+public class Estado {
+	public class Estado {
+
+		public String nome;
+		private String sigla;
+		private int idDD;
+		
+		
+		public Estado(String nome, String sigla, int codDDD) {
+	    	this.nome = nome;
+			this.sigla = sigla;
+			this.idDD = idDD;
+		}
+		
+		public String getNome() {
+			return nome;
+		}
+		public String getSigla() {
+			return sigla;
+		}
+		public int getidDD() {
+			return codDDD;
+		}
+
